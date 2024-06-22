@@ -1,0 +1,114 @@
+@font-face {
+  font-family:gt-pressura;
+  src:url(/fonts/GT-Pressura-Mono-Light.woff) format("woff"),
+      url(/fonts/GT-Pressura-Mono-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: fringe-v2;
+  src: url(/fonts/FringeV2.otf) format("opentype");
+}
+
+@font-face {
+  font-family: fringe-console;
+  src: url(/fonts/TheFringe-Console.otf) format("opentype");
+}
+
+body {
+  background-color: black;
+  font-family: gt-pressura, sans-serif;
+}
+
+button {
+  font-family: gt-pressura, sans-serif;
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 32px;
+  background-color: #636363; /* Dark grey background */
+  border: 2px solid rgb(242, 226, 181); /* Green border */
+  border-top-width: 8px; /* Thicker border on top */
+  border-radius: 4px; /* Rounded corners */
+  margin: 5px 0; /* Adjust as needed to stack the buttons vertically */
+  color: rgb(242, 226, 181); /* Text color */
+  cursor: pointer;
+  transition: border-color 0.1s; /* Smooth transition for border color */
+  text-transform: uppercase; /* Uppercase text */
+}
+
+button:active {
+  border-color: rgb(244, 199, 78);
+  color: rgb(244, 199, 78);
+}
+
+button:hover {
+  border-color: rgb(244, 199, 78);
+  color: rgb(244, 199, 78);
+}
+
+.screen {
+  position: relative;
+  max-width: 600px;
+  height: 1067px;
+  margin: auto;
+  color: rgb(242, 226, 181);
+}
+
+.background, .character, .bartop {
+  position: absolute;
+  
+  left: 0;
+}
+
+.background, .bartop {
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.character {
+  width: 100%;
+  top: 250px;
+}
+
+.background {
+  z-index: 1;
+}
+
+.character {
+  z-index: 2;
+}
+
+.bartop {
+  z-index: 3;
+}
+
+.text {
+  position: absolute;
+  bottom: 260px; /* Adjust as needed to position the text above the buttons */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  z-index: 4; /* Ensures text is above all images */
+  padding: 18px;
+  box-sizing: border-box;
+  background-color: rgb(28, 23, 23, 0.8);
+  font-size: 22px;
+  border-radius: 4px;
+}
+
+.choices {
+  position: absolute;
+  bottom: 40px; /* Adjust as needed to position the buttons at the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4; /* Ensures buttons are above all images */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.choices button {
+  width: 70%;
+}

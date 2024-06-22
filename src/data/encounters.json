@@ -1,0 +1,635 @@
+{
+  "encounters": {
+    "home-page": {
+      "startScreen": "screen1",
+      "screens": {
+        "screen1": {
+          "background": "/img/home-page/home-page.png",
+          "choices": [{ "text": "Start", "nextEncounter": "duzi-intro" }]
+        }
+      }
+    },
+    "duzi-intro": {
+      "startScreen": "screen1",
+      "screens": {
+        "screen1": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter07/drifter07.png",
+          "text": "Welcome to the best mugbar on the station. Ye must be the new bartender. Hope ye last longer than the last one!",
+          "choices": [{ "text": "Me too", "nextScreen": "screen2" }]
+        },
+        "screen2": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter07/drifter07.png",
+          "text": "Drifters bound for The Fringe are a motley lot, each has a tale to chant. Ah, here comes the first patron now!",
+          "choices": [{ "text": "Get to it", "nextEncounter": "roundpower" }]
+        }
+      }
+    },
+    "roundpower": {
+      "startScreen": "screen1",
+      "screens": {
+        "screen1": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter01/drifter01-1.png",
+          "text": "A mug tastes sweet after a hard season asteroid mining and my purse is full thanks to the Roundpower corporation!",
+          "choices": [{ "text": "...", "nextScreen": "screen2" }]
+        },
+        "screen2": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter01/drifter01-1.png",
+          "text": "An armistice makes The Bench a haven for all but drinking alongside Duggies can really sour my sup.",
+          "choices": [
+            { "text": "Roundpower?", "nextScreen": "roundpower" },
+            { "text": "Duggie?", "nextScreen": "duggie" }
+          ]
+        },
+        "roundpower": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter01/drifter01-1.png",
+          "text": "The premier mining corporation in the Fringe. After the Earlie family steered us through the Freight Wars.",
+          "choices": [{ "text": "Serve", "nextEncounter": "quick-visitors" }]
+        },
+        "duggie": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter01/drifter01-1.png",
+          "text": "Dugall Freight Corporation control shipping routes in the Fringe. We should never have made peace.",
+          "choices": [{ "text": "Serve", "nextEncounter": "quick-visitors" }]
+        }
+      }
+    },
+    "quick-visitors": {
+      "startScreen": "screen1",
+      "screens": {
+        "screen1": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/visitors/visitor1.png",
+          "choices": [{ "text": "Serve", "nextScreen": "screen2" }]
+        },
+        "screen2": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/visitors/visitor2.png",
+          "choices": [{ "text": "Serve", "nextEncounter": "dugall-freight" }]
+        }
+      }
+    },
+    "dugall-freight": {
+      "startScreen": "screen1",
+      "screens": {
+        "screen1": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter2/drifter2-unhappy.png",
+          "text": "Was that Roundpower lackey yammerin' on just now? Typical Rock Jockey; Pirates and savages don't change.",
+          "choices": [{ "text": "...", "nextScreen": "screen2" }]
+        },
+        "screen2": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter2/drifter2-unhappy.png",
+          "text": "A new corporate uniform doesn't change what's underneath. Family owned? That whole Earlie clan is rotten through.",
+          "choices": [
+            { "text": "Dugall Freight?", "nextScreen": "dugall" },
+            { "text": "Rock Jockey?", "nextScreen": "rock-jockey" }
+          ]
+        },
+        "dugall": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter2/drifter2-unhappy.png",
+          "text": "A name to rely on! Our colossal freighters are quite a sight. We ship civilization itself to the Fringe!",
+          "choices": [{ "text": "Serve", "nextEncounter": "quick-visitors-2" }]
+        },
+        "rock-jockey": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter2/drifter2-unhappy.png",
+          "text": "Earlie's Militia took in any willin' to fight, mercs, pirates, fugitives. War's over but they haven't changed.",
+          "choices": [{ "text": "Serve", "nextEncounter": "quick-visitors-2" }]
+        }
+      }
+    },
+    "quick-visitors-2": {
+      "startScreen": "screen1",
+      "screens": {
+        "screen1": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/visitors/shutters.png",
+          "choices": [{ "text": "Serve", "nextScreen": "screen2" }]
+        },
+        "screen2": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter06/drifter06-distressed-helmet.png",
+          "choices": [{ "text": "Serve", "nextScreen": "screen3" }]
+        },
+        "screen3": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter06/drifter06-distressed-helmet.png",
+          "text": "I...",
+          "choices": [{ "text": "...", "nextScreen": "screen4" }]
+        },
+        "screen4": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter06/drifter06-distressed-helmet.png",
+          "text": "Forget it, you never saw me.",
+          "choices": [{ "text": "Serve", "nextEncounter": "knight" }]
+        }
+      }
+    },
+    "knight": {
+      "startScreen": "screen1",
+      "screens": {
+        "screen1": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter05/drifter05-knight-neutral.png",
+          "text": "Your best mug, 'keep. You're graced by the presence of a Knight of Roundpower. On the house, of course,",
+          "choices": [{ "text": "...", "nextScreen": "screen2" }]
+        },
+        "screen2": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter05/drifter05-knight-neutral.png",
+          "text": "or Mister Fred himself will hear of this outrage! Everyone should know their station in the Fringe.",
+          "choices": [
+            { "text": "Knight?", "nextScreen": "knight" },
+            { "text": "Mister Fred?", "nextScreen": "mister-fred" }
+          ]
+        },
+        "knight": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter05/drifter05-knight-neutral.png",
+          "text": "The war ended before my time, a pity, but the title still recognizes the Earlie clan's most loyal supporters.",
+          "choices": [{ "text": "Serve", "nextEncounter": "gastrotech-1" }]
+        },
+        "mister-fred": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter05/drifter05-knight-neutral.png",
+          "text": "Fred Earlie, patriarch and head of Roundpower corp. A fine man indeed with many quite delicious appetites!",
+          "choices": [{ "text": "Serve", "nextEncounter": "gastrotech-1" }]
+        }
+      }
+    },
+    "gastrotech-1": {
+      "startScreen": "screen1",
+      "screens": {
+        "screen1": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter06/drifter06-distressed-helmet.png",
+          "text": "Any ships leaving fast that have a berth for a gastrotech? I can work my way, The Mouth machine I wear is stolid.",
+          "choices": [{ "text": "...", "nextScreen": "screen2" }]
+        },
+        "screen2": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter06/drifter06-distressed-face.png",
+          "text": "It can process foreign biologies even if toxic. Discover food sources, or sometimes other unintended ... effects.",
+          "choices": [
+            { "text": "Gastrotech?", "nextScreen": "gastrotech" },
+            { "text": "What's the rush?", "nextScreen": "rush" }
+          ]
+        },
+        "gastrotech": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter06/drifter06-distressed-face.png",
+          "text": "Weapon or engine alone can't carve a channel into the Fringe. Only local food sources can sustain settlement.",
+          "choices": [{ "text": "Serve", "nextEncounter": "quick-visitors-3" }]
+        },
+        "rush": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter06/drifter06-distressed-face.png",
+          "text": "I ... I'll have coin soon but Drifters tend solitary. Too many in one place spells strife. It's safer in the Void.",
+          "choices": [{ "text": "Serve", "nextEncounter": "quick-visitors-3" }]
+        }
+      }
+    },
+    "quick-visitors-3": {
+      "startScreen": "screen1",
+      "screens": {
+        "screen1": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/visitors/wasp.png",
+          "choices": [{ "text": "Serve", "nextScreen": "screen2" }]
+        },
+        "screen2": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/visitors/dark-princess.png",
+          "choices": [{ "text": "Serve", "nextEncounter": "courier" }]
+        }
+      }
+    },
+    "courier": {
+      "startScreen": "screen1",
+      "screens": {
+        "screen1": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/courier/courier.png",
+          "text": "Take this. Someone will collect it. I quit. A simple job, easy pay, I thought. Then things got ... strange.",
+          "choices": [{ "text": "...", "nextScreen": "screen2" }]
+        },
+        "screen2": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/courier/courier.png",
+          "text": "Pa was right. I never should have come to the Fringe. Thought I could make my name here. Now I just want to go home.",
+          "choices": [
+            { "text": "What's inside?", "nextScreen": "what" },
+            { "text": "Who will come?", "nextScreen": "who" }
+          ]
+        },
+        "what": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/courier/courier.png",
+          "text": "A living machine ... metal and flesh? They say the Fringe is full of wonders; a remnant of the old world?",
+          "choices": [{ "text": "Serve", "nextEncounter": "carver-1" }]
+        },
+        "who": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/courier/courier.png",
+          "text": "They'll find you. They always do. I don't know anything about them except for two words: Pyramid Order.",
+          "choices": [{ "text": "Serve", "nextEncounter": "carver-1" }]
+        }
+      }
+    },
+    "carver-1": {
+      "startScreen": "screen1",
+      "screens": {
+        "screen1": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/carver/carver-neutral.png",
+          "text": "Redhead. Gastrotech. Seen her? We're sole survivors of an expedition, she fled, left behind a pile of bodies.",
+          "choices": [{ "text": "...", "nextScreen": "screen2" }]
+        },
+        "screen2": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/carver/carver-neutral.png",
+          "text": "We located a small Brember deposit. The entire take would barely cover the sling back, why take out the crew?",
+          "choices": [
+            { "text": "Expedition?", "nextScreen": "expedition" },
+            { "text": "Your role?", "nextScreen": "role" }
+          ]
+        },
+        "expedition": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/carver/carver-neutral.png",
+          "text": "A guild survey of fresh squares. The pilot, prospector, cartographer, all dead. That leaves the gastro and me.",
+          "choices": [{ "text": "Serve", "nextEncounter": "visitors" }]
+        },
+        "role": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/carver/carver-neutral.png",
+          "text": "Security. Some drifters heard chant of native wildlife behaving erratically. The guild wanted increasde protection.",
+          "choices": [{ "text": "Serve", "nextEncounter": "visitors" }]
+        }
+      }
+    },
+    "visitors": {
+      "startScreen": "screen1",
+      "screens": {
+        "screen1": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/visitors/miner.png",
+          "choices": [{ "text": "...", "nextScreen": "screen2" }]
+        },
+        "screen2": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter2/drifter2-talking.png",
+          "text": "Another round on me! Rock Jockey, Duggie, we're all drifters. It's us workers that keep the Fringe flying!",
+          "choices": [
+            { "text": "Serve", "nextEncounter": "gastrotech-2" }
+          ]
+        }
+      }
+    },
+    "gastrotech-2": {
+      "startScreen": "screen1",
+      "screens": {
+        "screen1": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter06/drifter06-looking-into-cam.png",
+          "text": "Knew things were slant when I saw him. What was a Carver doing on a routine Guild survey? They're hired killers.",
+          "choices": [{ "text": "...", "nextScreen": "screen2" }]
+        },
+        "screen2": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter06/drifter06-looking-into-cam.png",
+          "text": "He tried to remove the carver mark but the scar's still there. Guild never intended to share the loot.",
+          "choices": [
+            { "text": "Hired Killer?", "nextScreen": "hired-killer" },
+            { "text": "How did you survive?", "nextScreen": "how-survived" }
+          ]
+        },
+        "hired-killer": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter06/drifter06-looking-into-cam.png",
+          "text": "Maybe he had orders. Or maybe his mind just curdled after too long in the Void. Sanity is a frayed tether out here.",
+          "choices": [{ "text": "I'll let you know.", "nextEncounter": "pyramid-order" }]
+        },
+        "how-survived": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter06/drifter06-looking-into-cam.png",
+          "text": "I was away from camp that night studying nocturnal fauna. When I returned I saw the bodies, the violence, I ran.",
+          "choices": [{ "text": "I'll let you know.", "nextEncounter": "pyramid-order" }]
+        }
+      }
+    },
+    "pyramid-order": {
+      "startScreen": "screen1",
+      "screens": {
+        "screen1": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter04/drifter04-neutral.png",
+          "text": "The ghosts of all who now float the tides of radiation return to that most holy of shapes in the center.",
+          "choices": [{ "text": "...", "nextScreen": "screen2" }]
+        },
+        "screen2": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter04/drifter04-neutral.png",
+          "text": "You have my package. Unopened, I trust. Those who peer behind the veil of the Fringe risk their sanity.",
+          "choices": [
+            { "text": "What's inside?", "nextScreen": "what" },
+            { "text": "Who are you?", "nextScreen": "who" }
+          ]
+        },
+        "what": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter04/drifter04-neutral.png",
+          "text": "Longhaulers navigate with biocomputers. But old world chemists went further, in space and mind. Beyond hyperspec.",
+          "choices": [{ "text": "Serve", "nextEncounter": "carver-2" }]
+        },
+        "who": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter04/drifter04-neutral.png",
+          "text": "The Pyramid Order seek the deeper mysteries of the Fringe. And the deepest of all, the Black Triangle.",
+          "choices": [{ "text": "Serve", "nextEncounter": "carver-2" }]
+        }
+      }
+    },
+    "carver-2": {
+      "startScreen": "screen1",
+      "screens": {
+        "screen1": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/carver/carver-looking-away.png",
+          "text": "I've spent many lonely seasons out on the edge in the company of ghosts. But these were a good crew.",
+          "choices": [{ "text": "...", "nextScreen": "screen2" }]
+        },
+        "screen2": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/carver/carver-looking-away.png",
+          "text": "We took evening rations together that night as normal, I dreamt vividly but woke to a nightmare; the crew dead.",
+          "choices": [
+            { "text": "You're a carver?", "nextScreen": "carver" },
+            { "text": "Where was the gastro?", "nextScreen": "where" }
+          ]
+        },
+        "carver": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/carver/carver-looking-away.png",
+          "text": "I've taken many lives. Killing marks you, that's not easy to erase no matter how hard you try.",
+          "choices": [{ "text": "Serve", "nextEncounter": "lcd" }]
+        },
+        "where": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/carver/carver-looking-away.png",
+          "text": "Spent more and more time away from camp, rarely spoke of her findings but always kept us well fed.",
+          "choices": [{ "text": "Serve", "nextEncounter": "lcd" }]
+        }
+      }
+    },
+    "lcd": {
+      "startScreen": "screen1",
+      "screens": {
+        "screen1": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/pyramid/pyramid-intro.png",
+          "text": "The ghosts of all who now float the tides of radiation return to that most holy of shapes in the center?",
+          "choices": [{ "text": "...", "nextScreen": "screen2" }]
+        },
+        "screen2": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/pyramid/pyramid-intro.png",
+          "text": "...incomprehensible gibberish?",
+          "fontFamily": "fringe-console",
+          "choices": [
+            { "text": "Err ... Yes", "nextScreen": "screen3" },
+            { "text": "No way", "nextScreen": "screen4" }
+          ]
+        },
+        "screen3": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/pyramid/pyramid-angry.png",
+          "text": "...angry gibberish!",
+          "fontFamily": "fringe-console",
+          "choices": [{ "text": "Serve", "nextEncounter": "gastrotech-3" }]
+        },
+        "screen4": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/pyramid/pyramid-happy.png",
+          "fontFamily": "fringe-console",
+          "text": "FGDFDGF",
+          "choices": [{ "text": "Serve", "nextEncounter": "gastrotech-3" }]
+        }
+      }
+    },
+    "gastrotech-3": {
+      "startScreen": "screen1",
+      "screens": {
+        "screen1": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter06/drifter06-looking-into-cam.png",
+          "text": "He's running down loose threads, covering tracks. He must've realized my discovery, it was priceless...",
+          "choices": [{ "text": "...", "nextScreen": "screen2" }]
+        },
+        "screen2": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter06/drifter06-looking-into-cam.png",
+          "text": "I found a new species of grub. Hardy, nutritious; could feed the Fringe. Seen greed sunder expeditions before.",
+          "choices": [
+            { "text": "Grub?", "nextScreen": "grub" },
+            { "text": "Why keep it secret?", "nextScreen": "secret" }
+          ]
+        },
+        "grub": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter06/drifter06-looking-into-cam.png",
+          "text": "A staple of the local food chain. Discovering native food sources could extend our dig time.",
+          "choices": [{ "text": "I'll let you know", "nextEncounter": "religious-pilgrim" }]
+        },
+        "secret": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter06/drifter06-looking-into-cam.png",
+          "text": "Trust no one in the Fringe, the Guild has paymasters, Corporations that would kill for a monopoly.",
+          "choices": [{ "text": "I'll let you know", "nextEncounter": "religious-pilgrim" }]
+        }
+      }
+    },
+    "religious-pilgrim": {
+      "startScreen": "screen1",
+      "screens": {
+        "screen1": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/religious-pilgrim/pilgrim.png",
+          "text": "Wicked dwell in the dark at The Fringe, The Lighthouse Sept spread the words of Tupper the Younger to wayward souls.",
+          "choices": [{ "text": "...", "nextScreen": "screen2" }]
+        },
+        "screen2": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/religious-pilgrim/pilgrim.png",
+          "text": "Salve from the murk and false dawn rays of cathedral numerologists or the dark ether blackhole worshippers.",
+          "choices": [
+            { "text": "Numerologists?", "nextScreen": "numerologists" },
+            { "text": "Black hole worship?", "nextScreen": "black-hole-worship" }
+          ]
+        },
+        "numerologists": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/religious-pilgrim/pilgrim.png",
+          "text": "Folly to pursue the divine through geometry. Their mission to build cathedrals on 1729 planets.",
+          "choices": [{ "text": "Serve", "nextEncounter": "carver-3" }]
+        },
+        "black-hole-worship": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/religious-pilgrim/pilgrim.png",
+          "text": "Nihilists who reached the edge and found only nothingness. In despair some even attempt to tear new holes.",
+          "choices": [{ "text": "Serve", "nextEncounter": "carver-3" }]
+        }
+      }
+    },
+    "carver-3": {
+      "startScreen": "screen1",
+      "screens": {
+        "screen1": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/carver/carver-looking-away.png",
+          "text": "Leaving me alive was a mistake. Maybe she got spooked, I can almost hear their screams. Whatever her reason,",
+          "choices": [{ "text": "...", "nextScreen": "screen2" }]
+        },
+        "screen2": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/carver/carver-looking-away.png",
+          "text": "gastrotechs aren't just interested in what's edible; everything in the Fringe has value to someone.",
+          "choices": [
+            { "text": "You're a killer", "nextScreen": "killer" },
+            { "text": "Other gastrotechs?", "nextScreen": "other-gastrotechs" }
+          ]
+        },
+        "killer": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/carver/carver-looking-away.png",
+          "text": "Only others keep your mind from curdling. The crew deserve justice.",
+          "choices": [{ "text": "Serve", "nextEncounter": "endings" }]
+        },
+        "other-gastrotechs": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/carver/carver-looking-away.png",
+          "text": "borsch institute venonauts, borsch",
+          "choices": [{ "text": "Serve", "nextEncounter": "endings" }]
+        }
+      }
+    },
+    "endings": {
+      "startScreen": "screen1",
+      "screens": {
+        "screen1": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "text": "Slip the grub toxin to the carver, help her avoid a violent fate? Feed the gastrotech the false coordinates, let her face Fringe Justice? Let them take care of each other, leaving you with the grub; maybe you can find a buyer?",
+          "choices": [
+            { "text": "Help the gastrotech", "nextScreen": "help-gastrotech" },
+            { "text": "Help the carver", "nextScreen": "help-carver" },
+            { "text": "Help yourself", "nextScreen": "help-yourself" }
+          ]
+        },
+        "help-gastrotech": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter06/drifter06-looking-into-cam.png",
+          "text": "Thanks for the help. I noticed it had a slumber effect on animals that ate it raw. I adjusted the dosage this time, I had to act first or he would've. Communal rations was the only opportunity.",
+          "choices": [{ "text": "...", "nextScreen": "help-gastrotech-2" }]
+        },
+        "help-gastrotech-2": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter06/drifter06-looking-into-cam.png",
+          "text": "Venonauts, Borsch a golden grub I won't be short of high bidders. What happened to the crew was an accident, may as well benefit from their sacrifice."
+        },
+        "help-carver": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/carver/carver-looking-away.png",
+          "text": "Thanks for the help. There's no law but still justice in the Fringe, we can't lose that. No justice in the Fringe but a carver can bring order, balance or we'll lose ourselves. You need a code of morality.",
+          "choices": [{ "text": "...", "nextScreen": "help-carver-2" }]
+        },
+        "help-carver-2": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/carver/carver-looking-away.png",
+          "text": "They died on my watch but maybe I should return to civilization, but you never really leave the Fringe. Haven't been the same since the injury, take simple escort protection jobs. You've given me peace but you won't see me again."
+        },
+        "help-yourself": {
+          "background": "/img/bar/background1.png",
+          "bartop": "/img/bar/bartop1.png",
+          "character": "/img/characters/drifter07/drifter07.png",
+          "text": "Played both sides and came out on top, you may just survive the Fringe yet. Drifting alone is like water, drifting together is like cream. Stay smooth, stay viscous."
+        }
+      }
+    }
+  }
+}
