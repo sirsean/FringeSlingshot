@@ -23,6 +23,7 @@ function storyImages(story) {
 
 const Story = () => {
   const { storyId } = useParams();
+  const [isLoading, setIsLoading] = useState(true);
   const [story, setStory] = useState(null);
   const [currentEncounter, setCurrentEncounter] = useState(null);
 
@@ -34,8 +35,12 @@ const Story = () => {
 
   useEffect(() => {
     if (story) {
-      preloadImages(storyImages(story));
-      setCurrentEncounter(story.startEncounter);
+      setIsLoading(true);
+      preloadImages(storyImages(story))
+        .then(() => {
+          setIsLoading(false);
+          setCurrentEncounter(story.startEncounter);
+        });
     }
   }, [story]);
 
@@ -44,8 +49,8 @@ const Story = () => {
     setCurrentEncounter(nextEncounterId);
   }
   
-  if (!story) {
-    return <div>Loading...</div>;
+  if (!story || isLoading) {
+    return <div className="Loading">Loading...</div>;
   }
 
   return (

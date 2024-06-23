@@ -1,7 +1,9 @@
-export const preloadImages = (imageUrls) => {
-  imageUrls.forEach(imageUrl => {
-    console.log('preload', imageUrl);
+export async function preloadImages(imageUrls) {
+  return Promise.all(imageUrls.map(url => new Promise((resolve, reject) => {
+    console.log('preload', url);
     const image = new Image();
-    image.src = imageUrl;
-  });
+    image.src = url;
+    image.onload = resolve;
+    image.onerror = reject;
+  })));
 }

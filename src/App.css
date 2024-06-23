@@ -71,7 +71,7 @@ a:hover {
 .screen {
   position: relative;
   max-width: 600px;
-  height: 1067px;
+  height: 100vh;
   margin: auto;
   color: rgb(242, 226, 181);
 }
@@ -90,7 +90,7 @@ a:hover {
 
 .character {
   width: 100%;
-  top: 250px;
+  top: 100px;
 }
 
 .background {
