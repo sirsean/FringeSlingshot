@@ -18,15 +18,15 @@ body {
   background-color: black;
   font-family: gt-pressura, sans-serif;
   max-width: 600px;
-  height: 1067px;
+  height: 100vh;
   margin: 0 auto;
 }
 
 button {
   font-family: gt-pressura, sans-serif;
   padding: 10px 20px;
-  font-size: 32px;
-  background-color: #636363; /* Dark grey background */
+  font-size: 28px;
+  background-color: #000000; /* Dark grey background */
   border: 2px solid rgb(242, 226, 181); /* Green border */
   border-top-width: 8px; /* Thicker border on top */
   border-radius: 4px; /* Rounded corners */
@@ -43,8 +43,10 @@ button:active {
 }
 
 button:hover {
-  border-color: rgb(244, 199, 78);
-  color: rgb(244, 199, 78);
+  border-color: rgb(242, 226, 181);
+  background-color: rgb(242,226,181);
+  color: rgb(0, 0, 0);
+  
 }
 
 .Home {
@@ -105,15 +107,15 @@ a:hover {
 
 .text {
   position: absolute;
-  bottom: 260px; /* Adjust as needed to position the text above the buttons */
+  bottom: 200px; /* Adjust as needed to position the text above the buttons */
   left: 50%;
   transform: translateX(-50%);
-  width: 80%;
+  width: 90%;
   z-index: 4; /* Ensures text is above all images */
   padding: 18px;
   box-sizing: border-box;
-  background-color: rgb(28, 23, 23, 0.8);
-  font-size: 22px;
+  background-color: rgb(0, 0, 0, 0.8);
+  font-size: 18px;
   border-radius: 4px;
 }
 
