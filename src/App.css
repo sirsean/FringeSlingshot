@@ -25,7 +25,7 @@ body {
 button {
   font-family: gt-pressura, sans-serif;
   padding: 10px 20px;
-  font-size: 28px;
+  font-size: 20px;
   background-color: #000000; /* Dark grey background */
   border: 2px solid rgb(242, 226, 181); /* Green border */
   border-top-width: 8px; /* Thicker border on top */
@@ -90,7 +90,7 @@ a:hover {
 
 .character {
   width: 100%;
-  top: 100px;
+  top: 20px;
 }
 
 .background {
@@ -107,7 +107,7 @@ a:hover {
 
 .text {
   position: absolute;
-  bottom: 200px; /* Adjust as needed to position the text above the buttons */
+  bottom: 180px; /* Adjust as needed to position the text above the buttons */
   left: 50%;
   transform: translateX(-50%);
   width: 90%;
