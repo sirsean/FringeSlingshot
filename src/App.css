@@ -17,11 +17,13 @@
 body {
   background-color: black;
   font-family: gt-pressura, sans-serif;
+  max-width: 600px;
+  height: 1067px;
+  margin: 0 auto;
 }
 
 button {
   font-family: gt-pressura, sans-serif;
-  margin: 5px;
   padding: 10px 20px;
   font-size: 32px;
   background-color: #636363; /* Dark grey background */
@@ -46,7 +48,10 @@ button:hover {
 }
 
 .Home {
+  background-color: rgb(47, 45, 45);
   color: rgb(202, 215, 101);
+  padding: 20px;
+  height: 1027px;
 }
 
 .Home p {
