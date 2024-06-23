@@ -45,6 +45,22 @@ button:hover {
   color: rgb(244, 199, 78);
 }
 
+.Home {
+  color: rgb(202, 215, 101);
+}
+
+.Home p {
+  text-align: center;
+}
+
+a {
+  color: rgb(202, 215, 101);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 .screen {
   position: relative;
   max-width: 600px;

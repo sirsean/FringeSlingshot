@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import Screen from './Screen';
-import encounters from '../data/encounters.json';
 
-const Encounter = ({ encounterId, handleEncounterChange }) => {
-  const encounter = encounters.encounters[encounterId];
+const Encounter = ({ story, encounterId, handleEncounterChange }) => {
+  if (!story || !encounterId) {
+    return;
+  }
+  const encounter = story.encounters[encounterId];
   const [currentScreen, setCurrentScreen] = useState(encounter.screens[encounter.startScreen]);
   if (!currentScreen) {
     setCurrentScreen(encounter.screens[encounter.startScreen]);

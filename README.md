@@ -11,9 +11,15 @@ npm run dev
 
 and that might get it up and running.
 
-## Editing the Story
+## Stories
 
-The story is configured in a JSON file, at `src/data/encounters.json`.
+Each story gets its own JSON file to describe its encounters.
+
+See, for instance, `src/data/chapter-one.json`.
+
+A story consists of `encounters`, and has a `startEncounter` to reference the first encounter in the story.
+
+## Editing the Story
 
 There are "encounters", which consist of "screens". Here's an example of what that JSON may look like:
 

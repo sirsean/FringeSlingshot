@@ -1,19 +1,17 @@
 import './App.css'
-import React, { useState } from 'react';
-import Encounter from './components/Encounter';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
+import Story from './components/Story';
 
 const App = () => {
-  const [currentEncounter, setCurrentEncounter] = useState('home-page');
-  const handleEncounterChange = (nextEncounterId) => {
-    setCurrentEncounter(nextEncounterId);
-  }
   return (
-    <div className="App">
-      <Encounter
-        encounterId={currentEncounter}
-        handleEncounterChange={handleEncounterChange}
-        />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/story/:storyId" element={<Story />} />
+      </Routes>  
+    </Router>
   );
 };
 
