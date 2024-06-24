@@ -1,17 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
-const Home = () => {
+function Home() {
+  const navigate = useNavigate();
   return (
     <div className="Home">
-      <h1>The Fringe: Slingshot</h1>
-      <p>A bartender role-playing game</p>
-      <p>Set in The Fringe universe</p>
-      <ul>
-        <li>
-          <Link to="/story/chapter-one">Chapter One: The Beginning</Link>
-        </li>
-      </ul>
+      <img src="/img/home-page/Slingshot_Logo_AltJuicebox_Transp.png" alt="Logo" style={{ width: '100%', height: 'auto' }} />
+      <div className="chapters">
+        <button onClick={() => navigate("/story/chapter-one")}>Volatile Mix</button>
+      </div>
     </div>
   );
 }
