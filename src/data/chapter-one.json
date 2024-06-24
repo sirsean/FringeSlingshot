@@ -322,7 +322,7 @@
         "screen2": {
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
-          "character": "/img/characters/drifter2/drifter2-talking.png",
+          "character": "/img/characters/drifter2/drifters-1-and-2.png",
           "text": "Another round on me! Rock Jockey, Duggie, we're all drifters. It's us workers that keep the Fringe flying!",
           "choices": [
             { "text": "Serve", "nextEncounter": "gastrotech-2" }
