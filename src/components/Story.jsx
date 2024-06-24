@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Encounter from './Encounter';
 import { preloadImages } from '../util/ImagePreloader';
+import AudioPlayer from '../util/AudioPlayer';
 
 function storyImages(story) {
   const images = new Set();
@@ -64,6 +65,7 @@ const Story = () => {
         encounterId={currentEncounter}
         handleEncounterChange={handleEncounterChange}
         />
+      {story.audio && <AudioPlayer src={story.audio} />}
     </div>
   );
 };

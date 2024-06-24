@@ -1,5 +1,6 @@
 {
   "startEncounter": "duzi-intro",
+  "audio": "/audio/bone.mp3",
   "encounters": {
     "home-page": {
       "startScreen": "screen1",
