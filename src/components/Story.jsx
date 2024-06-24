@@ -50,7 +50,11 @@ const Story = () => {
   }
   
   if (!story || isLoading) {
-    return <div className="Loading">Loading...</div>;
+    return (
+      <div className="Loading">
+        <div className="loading-text">Loading...</div>
+      </div>
+    );
   }
 
   return (

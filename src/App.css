@@ -68,6 +68,22 @@ a:hover {
   text-decoration: none;
 }
 
+.Loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(173, 5, 22, 0.5);
+  max-width: 600px;
+  height: 1067px;
+  font-weight: bold;
+}
+
+.Loading .loading-text {
+  font-size: 36px;
+  color: rgb(251, 224, 91);
+}
+
 .screen {
   position: relative;
   max-width: 600px;
