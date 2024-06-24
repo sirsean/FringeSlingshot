@@ -25,7 +25,7 @@ const Encounter = ({ story, encounterId, handleEncounterChange }) => {
     return null;
   }
   return (
-    <div className={encounterId}>
+    <div className={`Encounter ${encounterId}`}>
       <Screen screen={currentScreen} onChoice={handleChoice} />
     </div>
     );

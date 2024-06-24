@@ -6,12 +6,16 @@ import Story from './components/Story';
 
 const App = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/story/:storyId" element={<Story />} />
-      </Routes>  
-    </Router>
+    <div className="phone-container">
+      <div className="app full-height">
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/story/:storyId" element={<Story />} />
+          </Routes>
+        </Router>
+      </div>
+    </div>
   );
 };
 

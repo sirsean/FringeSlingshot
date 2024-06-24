@@ -15,11 +15,8 @@
 }
 
 body {
-  background-color: black;
+  background-color: rgb(96, 86, 36, 0.8);
   font-family: gt-pressura, sans-serif;
-  max-width: 600px;
-  height: 100vh;
-  margin: 0 auto;
 }
 
 button {
@@ -45,15 +42,38 @@ button:active {
 button:hover {
   border-color: rgb(242, 226, 181);
   background-color: rgb(242,226,181);
-  color: rgb(0, 0, 0);
-  
+  color: rgb(0, 0, 0);  
+}
+
+.phone-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 667px;
+  overflow: hidden;
+}
+
+.app {
+  width: 375px;
+  height: 667px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.full-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .Home {
   background-color: rgb(47, 45, 45);
   color: rgb(202, 215, 101);
+  height: 100%;
   padding: 20px;
-  height: 1027px;
 }
 
 .Home p {
@@ -74,9 +94,8 @@ a:hover {
   align-items: center;
   text-align: center;
   background-color: rgba(173, 5, 22, 0.5);
-  max-width: 600px;
-  height: 1067px;
   font-weight: bold;
+  height: 100%;
 }
 
 .Loading .loading-text {
@@ -84,17 +103,23 @@ a:hover {
   color: rgb(251, 224, 91);
 }
 
-.screen {
+.Story {
+  height: 100%;
+}
+
+.Encounter {
+  height: 100%;
+}
+
+.Screen {
   position: relative;
-  max-width: 600px;
-  height: 100vh;
   margin: auto;
   color: rgb(242, 226, 181);
+  height: 100%;
 }
 
 .background, .character, .bartop {
   position: absolute;
-  
   left: 0;
 }
 
@@ -106,7 +131,7 @@ a:hover {
 
 .character {
   width: 100%;
-  top: 20px;
+  top: 110px;
 }
 
 .background {
@@ -121,11 +146,16 @@ a:hover {
   z-index: 3;
 }
 
-.text {
+.Screen .foreground {
   position: absolute;
-  bottom: 180px; /* Adjust as needed to position the text above the buttons */
-  left: 50%;
-  transform: translateX(-50%);
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.text {
   width: 90%;
   z-index: 4; /* Ensures text is above all images */
   padding: 18px;
@@ -136,17 +166,12 @@ a:hover {
 }
 
 .choices {
-  position: absolute;
-  bottom: 40px; /* Adjust as needed to position the buttons at the bottom */
-  left: 50%;
-  transform: translateX(-50%);
   z-index: 4; /* Ensures buttons are above all images */
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 
 .choices button {
   width: 70%;
