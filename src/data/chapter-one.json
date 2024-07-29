@@ -18,14 +18,14 @@
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter07/drifter07.png",
-          "text": "Welcome to the best mugbar on the station. Ye must be the new bartender. Hope ye last longer than the last one!",
+          "text": "Welcome to the best mugbar on the station. You must be the new bartender. Hope you fare better than the last one!",
           "choices": [{ "text": "Me too", "nextScreen": "screen2" }]
         },
         "screen2": {
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter07/drifter07.png",
-          "text": "Drifters bound for The Fringe are a motley lot, each has a tale to chant. Ah, here comes the first patron now!",
+          "text": "Drifters bound for The Fringe are a motley lot, each has a tale to chant. Ah, here comes your first patron now!",
           "choices": [{ "text": "Get to it", "nextEncounter": "roundpower" }]
         }
       }
@@ -73,13 +73,15 @@
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/visitors/visitor1.png",
+          "text": "Hmhhfrrllgggllll....",
           "choices": [{ "text": "Serve", "nextScreen": "screen2" }]
         },
         "screen2": {
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/visitors/visitor2.png",
-          "choices": [{ "text": "Serve", "nextEncounter": "dugall-freight" }]
+          "text": "...",
+          "choices": [{ "text": "Serve?", "nextEncounter": "dugall-freight" }]
         }
       }
     },

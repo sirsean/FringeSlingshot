@@ -5,6 +5,23 @@
 }
 
 @font-face {
+  font-family: ibm-plex-mono;
+  src:url(/fonts/IBMPlexMono-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: ibm-plex-mono;
+  src:url(/fonts/IBMPlexMono-Bold.ttf) format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: ibm-plex-mono;
+  src:url(/fonts/IBMPlexMono-Italic.ttf) format("truetype");
+  font-style: italic;
+}
+
+@font-face {
   font-family: fringe-v2;
   src: url(/fonts/FringeV2.otf) format("opentype");
 }
@@ -15,12 +32,12 @@
 }
 
 body {
-  background-color: rgb(96, 86, 36, 0.8);
-  font-family: gt-pressura, sans-serif;
+  background-color: rgb(21, 21, 20);
+  font-family: ibm-plex-mono, sans-serif;
 }
 
 button {
-  font-family: gt-pressura, sans-serif;
+  font-family: ibm-plex-mono, sans-serif;
   padding: 10px 20px;
   font-size: 20px;
   background-color: #000000; /* black background */
@@ -160,13 +177,14 @@ a:hover {
 }
 
 .text {
-  width: 90%;
+  width: 92%;
   z-index: 4; /* Ensures text is above all images */
-  padding: 18px;
+  padding: 12px;
   box-sizing: border-box;
   background-color: rgb(0, 0, 0, 0.8);
   font-size: 18px;
   border-radius: 4px;
+  font-weight: Regular;
 }
 
 .choices {
@@ -179,4 +197,5 @@ a:hover {
 
 .choices button {
   width: 70%;
+  font-weight: bold;
 }
