@@ -112,10 +112,11 @@ a:hover {
 
 .Loading {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgba(173, 5, 22, 0.5);
+  background-color: rgb(0, 0, 0, 1);
   font-weight: bold;
   height: 100%;
 }
@@ -123,6 +124,12 @@ a:hover {
 .Loading .loading-text {
   font-size: 36px;
   color: rgb(251, 224, 91);
+}
+
+.Loading .loading-gif {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .Story {

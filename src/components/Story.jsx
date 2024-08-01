@@ -53,6 +53,7 @@ const Story = () => {
   if (!story || isLoading) {
     return (
       <div className="Loading">
+        <div><img src="/img/loading/loading.gif" alt="Loading" className="loading-gif" /></div>
         <div className="loading-text">Loading...</div>
       </div>
     );
