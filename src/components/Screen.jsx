@@ -13,7 +13,7 @@ const Screen = ({ screen, onChoice }) => {
       <div className="foreground">
         {screen.text && 
           <div className="text">
-            <div className="letters" style={{"fontFamily": screen.fontFamily || "gt-pressura, sans-serif"}}>
+            <div className="letters" style={{"fontFamily": screen.fontFamily || "ibm-plex-mono, sans-serif"}}>
               {screen.text}
             </div>
           </div>}
