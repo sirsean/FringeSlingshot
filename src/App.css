@@ -170,8 +170,16 @@ a:hover {
   z-index: 2;
 }
 
+.characterInFront > .character {
+  z-index: 3;
+}
+
 .bartop {
   z-index: 3;
+}
+
+.characterInFront > .bartop {
+  z-index: 2;
 }
 
 .Screen .foreground {

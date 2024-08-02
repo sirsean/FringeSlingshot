@@ -1,15 +1,19 @@
 import React from 'react';
 
 const Screen = ({ screen, onChoice }) => {
+  let screenClass = ["Screen"];
+  if (screen.characterInFront) {
+    screenClass.push("characterInFront");
+  }
   return (
-    <div className="Screen">
+    <div className={screenClass.join(" ")}>
       <img src={screen.background} alt="background" className="background" />
       {screen.bartop && <img src={screen.bartop} alt="bartop" className="bartop" />}
       {screen.character && <img src={screen.character} alt="character" className="character" />}
       <div className="foreground">
         {screen.text && 
           <div className="text">
-            <div className="letters" style={{"fontFamily": screen.fontFamily || "ibm-plex-mono, sans-serif"}}>
+            <div className="letters" style={{"fontFamily": screen.fontFamily || "gt-pressura, sans-serif"}}>
               {screen.text}
             </div>
           </div>}
