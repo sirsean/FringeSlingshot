@@ -9,6 +9,7 @@ const Screen = ({ screen, onChoice }) => {
     <div className={screenClass.join(" ")}>
       <img src={screen.background} alt="background" className="background" />
       {screen.bartop && <img src={screen.bartop} alt="bartop" className="bartop" />}
+      {screen.middleground && <img src={screen.middleground} alt="middleground" className="middleground" />}
       {screen.character && <img src={screen.character} alt="character" className="character" />}
       <div className="foreground">
         {screen.text && 

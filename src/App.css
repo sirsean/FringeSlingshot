@@ -147,12 +147,12 @@ a:hover {
   height: 100%;
 }
 
-.background, .character, .bartop {
+.background, .middleground, .character, .bartop {
   position: absolute;
   left: 0;
 }
 
-.background, .bartop {
+.background, .middleground, .bartop {
   width: 100%;
   height: 100%;
   top: 0;
@@ -166,20 +166,24 @@ a:hover {
   z-index: 1;
 }
 
-.character {
+.middleground {
   z-index: 2;
+}
+
+.character {
+  z-index: 3;
 }
 
 .characterInFront > .character {
-  z-index: 3;
+  z-index: 4;
 }
 
 .bartop {
-  z-index: 3;
+  z-index: 4;
 }
 
 .characterInFront > .bartop {
-  z-index: 2;
+  z-index: 3;
 }
 
 .Screen .foreground {

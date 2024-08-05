@@ -11,6 +11,9 @@ function storyImages(story) {
       if (screen.background) {
         images.add(screen.background);
       }
+      if (screen.middleground) {
+        images.add(screen.middleground);
+      }
       if (screen.bartop) {
         images.add(screen.bartop);
       }
