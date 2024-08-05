@@ -19,7 +19,7 @@
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter07/drifter07.png",
           "characterInFront": true,
-          "text": "Welcome to the best mug bar on the station. You must be the new bartender. Hope you fare better than the last one!",
+          "text": "Welcome to the best mug bar on the station. You must be the new bartender. Hope you fare better than the last one",
           "choices": [{ "text": "...", "nextScreen": "screen2" }]
         },
         "screen2": {
@@ -466,17 +466,17 @@
         "screen3": {
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
-          "character": "/img/characters/pyramid/pyramid-angry.png",
-          "text": "kip a'int no real drifter",
+          "character": "/img/characters/pyramid/pyramid-happy.png",
+          "text": "Stay smooth, stay viscous.",
           "fontFamily": "fringe-console",
           "choices": [{ "text": "Serve", "nextEncounter": "carver-3" }]
         },
         "screen4": {
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
-          "character": "/img/characters/pyramid/pyramid-happy.png",
+          "character": "/img/characters/pyramid/pyramid-angry.png",
           "fontFamily": "fringe-console",
-          "text": "Stay Smooth, Stay viscous.",
+          "text": "kip a'int no real drifter",
           "choices": [{ "text": "Serve", "nextEncounter": "carver-3" }]
         }
       }
@@ -629,7 +629,7 @@
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter07/drifter07.png",
           "characterInFront": true,
-          "text": "Tis a knotted tale you're in the midst of, friend. In the Fringe, drifters are free to forge their own path, good or ill.",
+          "text": "A tale of tangled tethers. How does it end? Drifters are free to follow their own currents, good or ill",
           "choices": [
             { "text": "...", "nextScreen": "screen2" }
           ]
@@ -639,7 +639,7 @@
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter07/drifter07.png",
           "characterInFront": true,
-          "text": "The lure of riches or a pitiable plea. Which way does your compass point? Whose chant swayed your allegiance?",
+          "text": "On the surface The lure of riches or a imperilled plea. Which way does your compass point? Who will you help?",
           "choices": [
             { "text": "Gastrotech", "nextScreen": "gastrotech" },
             { "text": "Carver", "nextScreen": "carver" }
@@ -650,7 +650,7 @@
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter07/drifter07.png",
           "characterInFront": true,
-          "text": "They say no good deed goes unpunished. She seems mired in a peril it's true. How will you help the gastrotech?",
+          "text": "Good intentions if her chant is straight but now she's facing a grizzly end. How will you help the gastrotech?",
           "choices": [
             { "text": "Drug the carver", "nextEncounter": "ending-gastrotech-active" },
             { "text": "Warn of the carver's plan", "nextEncounter": "ending-gastrotech-passive" }
@@ -676,7 +676,7 @@
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter06/drifter06-evil.png",
-          "text": "I tested the sedative effect of the grub on the unaware crew. Weaponizing Carver's rage was unexpected but lucrative.",
+          "text": "I was secretly testing the sedating grub on the crew. Triggering the Carver’s rage was unexpected but lucrative.",
           "choices": [
             { "text": "...", "nextScreen": "screen2" }
           ]
@@ -685,7 +685,7 @@
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter06/drifter06-evil.png",
-          "text": "Longer mining shifts, haul freight further. Corporate demand will soar and now only I know the location.",
+          "text": "Violence, power, greed; it's our nature. To win The Fringe you must do what it takes. Now I can supply the means.",
           "choices": [
             { "text": "...", "nextScreen": "screen3" }
           ]
@@ -694,7 +694,7 @@
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter06/drifter06-evil.png",
-          "text": "The armistice makes the Bench a prime market for a sheathed blade. I need a contact who can serve my clientele discreetly.",
+          "text": "The armistice makes the Bench prime market for such a sheathed blade. My clientele require a discreet vendor.",
           "choices": [
             { "text": "...", "nextScreen": "screen4" }
           ]
@@ -703,7 +703,7 @@
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter06/drifter06-evil.png",
-          "text": "A partnership, I insist. You rid me of the Carver, I'll name my lethal cocktail in your honor: Slingshot.",
+          "text": "A partnership, I insist. You rid me of the Carver, so I’ll name my lethal cocktail in your honour; Slingshot",
           "choices": [
             { "text": "...", "nextScreen": "screen5" }
           ]
@@ -713,7 +713,7 @@
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter07/drifter07.png",
           "characterInFront": true,
-          "text": "What a commotion. A Carver went berserk. Half a dozen dead before they put him down. A bloody mess.",
+          "text": "What commotion. A Carver went on a berserk rampage. Half a dozen dead before they put him down. A bloody mess.",
           "choices": [
             { "text": "...", "nextScreen": "screen6" }
           ]
@@ -723,7 +723,7 @@
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter07/drifter07.png",
           "characterInFront": true,
-          "text": "What deadly pall drove him? For some the Fringe is a fiery crucible, allegiances can stab you in the back.",
+          "text": "What deadly pall possessed him? Suppose We all carry ghosts. Take heed who ye tether to; can be yer undoing",
           "choices": [
             { "text": "...", "nextEncounter": "duzi-ending" }
           ]
@@ -737,7 +737,7 @@
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter06/drifter06-lost.png",
-          "text": "It will be his maul but you killed me. In the Fringe it's them or you, you'll learn that if you make it a season.",
+          "text": "It will be his maul but you killed me. In the Fringe it’s them or you, you’ll learn that if you make it a season.",
           "choices": [
             { "text": "...", "nextScreen": "screen2" }
           ]
@@ -746,7 +746,7 @@
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter06/drifter06-lost.png",
-          "text": "If I didn't take the grub someone else would've and I'd be dead. You saw what he did. I've seen greed sunder before.",
+          "text": "If I didn’t lift the grub first he would’ve. I’d be dead, you saw what he did. Seen greed sunder before.",
           "choices": [
             { "text": "...", "nextScreen": "screen3" }
           ]
@@ -755,7 +755,7 @@
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter06/drifter06-lost.png",
-          "text": "The grub is lost; corps, pirates will swarm to any discovery, trust me. Mouth machine was damaged in my escape.",
+          "text": "Now it's lost; corps, pirates will swarm any discovery with force, trust me. Keen drifters use ruthless secrecy",
           "choices": [
             { "text": "...", "nextScreen": "screen4" }
           ]
@@ -764,7 +764,7 @@
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter06/drifter06-lost.png",
-          "text": "There's no choice. I'll keep running. The Void is a dangerous place to hide but also a dangerous place to follow.",
+          "text": "I've no choice. I’ll keep running. The Void is a deadly place to hide but also a dangerous place to follow.",
           "choices": [
             { "text": "Farewell", "nextScreen": "screen5" }
           ]
@@ -774,7 +774,7 @@
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter07/drifter07.png",
           "characterInFront": true,
-          "text": "It's rumored a redhead stowed away, with a fiend in pursuit. Void can be a dark place without a destination.",
+          "text": "Scuttlebutt is a redhead stowed away, with a fiend in pursuit. With no safe port The Void can be lonesome",
           "choices": [
             { "text": "...", "nextScreen": "screen6" }
           ]
@@ -784,7 +784,7 @@
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter07/drifter07.png",
           "characterInFront": true,
-          "text": "A curious tale. Might never know the truth of her chant. Maybe we retell stories to find something we missed.",
+          "text": "We might never know the truth of her chant. Perhaps we retell stories to discover something new each time",
           "choices": [
             { "text": "...", "nextEncounter": "duzi-ending" }
           ]
@@ -798,7 +798,7 @@
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/carver/carver-blood.png",
-          "text": "The crew deserved justice. The Fringe is filled with baseness. It requires cleansing, killing is an act of purity.",
+          "text": "The crew are gone. I can almost see their faces, hear their screams, my head is a fog The truth died with her",
           "choices": [
             { "text": "...", "nextScreen": "screen2" }
           ]
@@ -807,7 +807,7 @@
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/carver/carver-blood.png",
-          "text": "I once took flame to my Carver brand. Hid in remote postings. Now I see it's my duty. You helped me see that.",
+          "text": "and the dead don't chant; but they howl for a vengeful wraith. The baseness of The Fringe  requires cleansing.",
           "choices": [
             { "text": "...", "nextScreen": "screen3" }
           ]
@@ -816,7 +816,7 @@
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/carver/carver-blood.png",
-          "text": "I'll never know the truth of what happened, it died with her. The dead don't chant. It no longer matters.",
+          "text": "I once took flame to my Carver brand. Fled my nature in remote postings. Now I see it’s my duty, I am a killer",
           "choices": [
             { "text": "...", "nextScreen": "screen4" }
           ]
@@ -825,7 +825,7 @@
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/carver/carver-blood.png",
-          "text": "I cannot leave. Dwell long enough and the Fringe changes you, there's no return to civilization. I'm a drifter.",
+          "text": " You helped me see that. Dwell long and The Fringe changes you, there’s no return to civilization; I’m a drifter.",
           "choices": [
             { "text": "Farewell", "nextScreen": "screen5" }
           ]
@@ -835,7 +835,7 @@
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter07/drifter07.png",
           "characterInFront": true,
-          "text": "They found the body of a gastrotech, what was left of her. Mouth machine crushed by hammer blow.",
+          "text": "They found the body of a gastrotech on the lower decks, what was left of her. Her Mouth Machine caved in.",
           "choices": [
             { "text": "...", "nextScreen": "screen6" }
           ]
@@ -845,7 +845,7 @@
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter07/drifter07.png",
           "characterInFront": true,
-          "text": "I wonder if we will ever know the truth, if it matters. The Fringe got a little darker.",
+          "text": "Everyone tells themselves a story of who they are. Does the truth matter? The Fringe feels a little darker today",
           "choices": [
             { "text": "...", "nextEncounter": "duzi-ending" }
           ]
@@ -859,7 +859,7 @@
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/carver/carver-healed.png",
-          "text": "A drug? The rations, the vivid nightmares, her secrecy, notes we were all her test subjects.",
+          "text": "She developed a drug? All her secrecy, the extra rations, The vivid nightmares, we were all her test subjects. ",
           "choices": [
             { "text": "...", "nextScreen": "screen2" }
           ]
@@ -868,7 +868,7 @@
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/carver/carver-healed.png",
-          "text": "Then it was me. I can hear the screams. She awoke the tempest voices that still haunt me.",
+          "text": "I killed them, then. Guided by her hand. She awoke ghosts that still haunt me, I won't be dragged back to that life",
           "choices": [
             { "text": "...", "nextScreen": "screen3" }
           ]
@@ -877,7 +877,7 @@
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/carver/carver-healed.png",
-          "text": "I won't kill her, it's not who I am anymore. The crew dreamed.",
+          "text": "I won't kill her. She won't last alone in the void, its a lonely place, I know. connection keeps you afloat",
           "choices": [
             { "text": "...", "nextScreen": "screen4" }
           ]
@@ -886,7 +886,7 @@
           "background": "/img/bar/background1.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/carver/carver-healed.png",
-          "text": "The Fringe is a new beginning for all of us. I will protect who I can. You have an ally in me.",
+          "text": "Whoever you were before; The Fringe is a new beginning for all of us. I will protect who I can. You have an ally in me",
           "choices": [
             { "text": "...", "nextScreen": "screen5" }
           ]
@@ -896,7 +896,7 @@
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter07/drifter07.png",
           "characterInFront": true,
-          "text": "A gastrotech was discovered hawking some toxin, she was chased off the station; she won't be welcome back soon.",
+          "text": "A Gastrotech broke armistice and was caught hawking a lethal toxin. Drifters united to chase her off the station. ",
           "choices": [
             { "text": "...", "nextScreen": "screen6" }
           ]
@@ -906,7 +906,7 @@
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter07/drifter07.png",
           "characterInFront": true,
-          "text": "Plenty in the Fringe are escaping something.",
+          "text": "The Bench is more than a haven; it's a symbol of what The Fringe can be. Drifting together; now that's cream.",
           "choices": [
             { "text": "...", "nextEncounter": "duzi-ending" }
           ]
@@ -921,7 +921,7 @@
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter07/drifter07.png",
           "characterInFront": true,
-          "text": "Played both sides and came out on top, you may just survive the Fringe yet. Drifting alone is like water, drifting together is like cream. Stay smooth, stay viscous."
+          "text": "Consider myself a collector of Fringe tales. Hunch yours will be a grand yarn. Pour a mug and tell this one again"
         }
       }
     }
