@@ -31,6 +31,11 @@
   src: url(/fonts/TheFringe-Console.otf) format("opentype");
 }
 
+  @font-face {
+    font-family: fringe-machine;
+    src: url(/fonts/TheFringe-Machine.otf) format("opentype");
+}
+
 body {
   background-color: rgb(21, 21, 20);
   font-family: ibm-plex-mono, sans-serif;
@@ -200,7 +205,7 @@ a:hover {
   z-index: 4; /* Ensures text is above all images */
   padding: 12px;
   box-sizing: border-box;
-  background-color: rgb(0, 0, 0, 0.7);
+  background-color: rgb(0, 0, 0, 0.6);
   font-size: 18px;
   border-radius: 4px;
   font-weight: Regular;
@@ -217,8 +222,8 @@ a:hover {
 
 .choices button {
   width: 80%;
-  font-weight: bold;
-  font-size: 16px;
+  font-weight: regular;
+  font-size: 20px;
   opacity: 0.75;
   margin: 6px 0;
 }
