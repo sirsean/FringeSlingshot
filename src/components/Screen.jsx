@@ -5,8 +5,17 @@ const Screen = ({ screen, onChoice }) => {
   if (screen.characterInFront) {
     screenClass.push("characterInFront");
   }
+  const onFullScreenClick = (e) => {
+    e.preventDefault();
+    if (screen.fullScreenClick) {
+      onChoice({ 
+        screenId: screen.fullScreenClick.nextScreen,
+        encounterId: screen.fullScreenClick.nextEncounter,
+      });
+    }
+  }
   return (
-    <div className={screenClass.join(" ")}>
+    <div className={screenClass.join(" ")} onClick={onFullScreenClick}>
       <img src={screen.background} alt="background" className="background" />
       {screen.bartop && <img src={screen.bartop} alt="bartop" className="bartop" />}
       {screen.middleground && <img src={screen.middleground} alt="middleground" className="middleground" />}

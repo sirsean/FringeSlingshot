@@ -1,5 +1,5 @@
 {
-  "startEncounter": "duzi-intro",
+  "startEncounter": "home-page",
   "audio": "/audio/bone.mp3",
   "encounters": {
     "home-page": {
@@ -7,7 +7,7 @@
       "screens": {
         "screen1": {
           "background": "/img/home-page/home-page.png",
-          "choices": [{ "text": "Start", "nextEncounter": "duzi-intro" }]
+          "fullScreenClick": { "nextEncounter": "duzi-intro" }
         }
       }
     },
