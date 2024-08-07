@@ -6,7 +6,7 @@
       "startScreen": "screen1",
       "screens": {
         "screen1": {
-          "background": "/img/home-page/home-page.png",
+          "background": "/img/home-page/ss2.png",
           "fullScreenClick": { "nextEncounter": "duzi-intro" }
         }
       }

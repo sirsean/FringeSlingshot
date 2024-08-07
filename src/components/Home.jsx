@@ -5,10 +5,11 @@ function Home() {
   const navigate = useNavigate();
   return (
     <div className="Home">
-      <img src="/img/home-page/Slingshot_Logo_AltJuicebox_Transp.png" alt="Logo" style={{ width: '100%', height: 'auto' }} />
-      <div className="chapters">
-        <button onClick={() => navigate("/story/chapter-one")}>Volatile Mix</button>
-      </div>
+      <img
+        src="/img/home-page/ss1.png"
+        style={{ width: '100%', height: 'auto' }}
+        onClick={() => navigate('/story/chapter-one')}
+        />
     </div>
   );
 }
