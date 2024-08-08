@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Screen = ({ screen, onChoice }) => {
+const Screen = ({ story, screen, onChoice }) => {
   let screenClass = ["Screen"];
   if (screen.characterInFront) {
     screenClass.push("characterInFront");
@@ -17,6 +17,7 @@ const Screen = ({ screen, onChoice }) => {
   return (
     <div className={screenClass.join(" ")} onClick={onFullScreenClick}>
       <img src={screen.background} alt="background" className="background" />
+      {story.foreground && <img src={story.foreground} alt="foreground" className="storyForeground" />}
       {screen.bartop && <img src={screen.bartop} alt="bartop" className="bartop" />}
       {screen.middleground && <img src={screen.middleground} alt="middleground" className="middleground" />}
       {screen.character && <img src={screen.character} alt="character" className="character" />}

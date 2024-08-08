@@ -6,6 +6,9 @@ import AudioPlayer from '../util/AudioPlayer';
 
 function storyImages(story) {
   const images = new Set();
+  if (story.foreground) {
+    images.add(story.foreground);
+  }
   Object.values(story.encounters).forEach(encounter => {
     Object.values(encounter.screens).forEach(screen => {
       if (screen.background) {
