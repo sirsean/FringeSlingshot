@@ -193,6 +193,7 @@ a:hover {
 
 .Screen .storyForeground {
   z-index: 5;
+  mix-blend-mode: screen;
 }
 
 .Screen .foreground {
