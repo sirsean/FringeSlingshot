@@ -45,7 +45,7 @@ button {
   font-family: ibm-plex-mono, sans-serif;
   padding: 10px 20px;
   font-size: 20px;
-  background-color: rgba(0, 0, 0, 0.5); /* black background */
+  background-color: rgba(0, 0, 0, 0.6); /* black background */
   border: 2px solid rgba(242, 226, 181, 1.0);
   border-top-width: 8px; /* Thicker border on top */
   border-radius: 4px; /* Rounded corners */
