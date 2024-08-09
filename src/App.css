@@ -92,19 +92,47 @@ button:hover {
 }
 
 .Home {
-  background-color: rgb(20, 20, 26);
-  color: rgb(202, 215, 101);
+  background-image: url('/img/home-page/ss1.png');
+}
+
+.Credits {
+  background-image: url('/img/home-page/credits.png');
+}
+
+.Page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 100%;
 }
 
-.Home p {
-  text-align: center;
+.Page button {
+  border: none;
+  background: none;
 }
 
-.Home .chapters {
-  display: flex;
-  flex-direction: column;
-  padding: 24px;
+.Page button:hover {
+  border: none;
+  background: none;
+  color: rgb(240, 198, 81);
+}
+
+.Page button:active {
+  border: none;
+  background: none;
+}
+
+.Page .center-button {
+  margin-top: 320px;
+  margin-bottom: auto;
+}
+
+.Page .bottom-button {
+  margin-bottom: 20px;
 }
 
 a {

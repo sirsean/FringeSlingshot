@@ -2,6 +2,7 @@ import './App.css'
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
+import Credits from './components/Credits';
 import Story from './components/Story';
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/story/:storyId" element={<Story />} />
+            <Route path="/credits" element={<Credits />} />
           </Routes>
         </Router>
       </div>
