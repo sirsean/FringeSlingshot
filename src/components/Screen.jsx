@@ -39,6 +39,8 @@ const Screen = ({ story, screen, onChoice }) => {
               </button>
             ))}
           </div>}
+        {(!screen.choices || screen.choices.length === 0) &&
+          <div className="noChoices"></div>}
       </div>
     </div>
   );

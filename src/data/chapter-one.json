@@ -724,7 +724,8 @@
           "text": "Good intentions if her chant is straight but now she's facing a grizzly end. How will you help the gastrotech?",
           "choices": [
             { "text": "Drug the Carver", "nextEncounter": "ending-gastrotech-active" },
-            { "text": "Warn of Carver's plan", "nextEncounter": "ending-gastrotech-passive" }
+            { "text": "Warn of Carver's plan", "nextEncounter": "ending-gastrotech-passive" },
+            { "text": "Change mind", "nextScreen": "screen2" }
           ]
         },
         "carver": {
@@ -735,7 +736,8 @@
           "text": "A fearsome aspect to that one. Justice or vengeance, perhaps yer of kindred mind. How will you help the Carver?",
           "choices": [
             { "text": "Lure the Gastro to doom", "nextEncounter": "ending-carver-active" },
-            { "text": "Expose the Gastro's scheme", "nextEncounter": "ending-carver-passive" }
+            { "text": "Expose the Gastro's scheme", "nextEncounter": "ending-carver-passive" },
+            { "text": "Change mind", "nextScreen": "screen2" }
           ]
         }
       }
