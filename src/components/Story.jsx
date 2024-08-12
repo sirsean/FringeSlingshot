@@ -31,6 +31,8 @@ function storyImages(story) {
 const Story = () => {
   const { storyId } = useParams();
   const [isLoading, setIsLoading] = useState(true);
+  const [numImagesTotal, setNumImagesTotal] = useState(0);
+  const [numImagesLoaded, setNumImagesLoaded] = useState(0);
   const [story, setStory] = useState(null);
   const [currentEncounter, setCurrentEncounter] = useState(null);
 
@@ -43,7 +45,9 @@ const Story = () => {
   useEffect(() => {
     if (story) {
       setIsLoading(true);
-      preloadImages(storyImages(story))
+      const images = storyImages(story);
+      setNumImagesTotal(images.length);
+      preloadImages(images, setNumImagesLoaded)
         .then(() => {
           setIsLoading(false);
           setCurrentEncounter(story.startEncounter);
@@ -60,7 +64,11 @@ const Story = () => {
     return (
       <div className="Loading">
         <div><img src="/img/loading/loading.gif" alt="Loading" className="loading-gif" /></div>
-        <div className="loading-text">Loading...</div>
+        <div className="progress-blocks">
+          {Array.from({ length: numImagesTotal }).map((_, index) => (
+            <div key={index} className={`progress-block ${index < numImagesLoaded ? 'filled' : 'unfilled'}`} />
+          ))}
+        </div>
       </div>
     );
   }
