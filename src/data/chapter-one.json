@@ -735,8 +735,8 @@
           "characterInFront": true,
           "text": "A fearsome air to that one. Be it Justice or vengeance; perhaps yer of kindred mind. How will you aid the Carver?",
           "choices": [
-            { "text": "Lure the Gastro to doom", "nextEncounter": "ending-carver-active" },
-            { "text": "Expose the Gastro's scheme", "nextEncounter": "ending-carver-passive" },
+            { "text": "Lure the Gastro", "nextEncounter": "ending-carver-active" },
+            { "text": "Expose Gastro's plan", "nextEncounter": "ending-carver-passive" },
             { "text": "Change mind", "nextScreen": "screen2" }
           ]
         }
