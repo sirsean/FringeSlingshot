@@ -1,6 +1,19 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Screen = ({ story, screen, onChoice }) => {
+  const [showTapToAdvance, setShowTapToAdvance] = useState(false);
+
+  useEffect(() => {
+    setShowTapToAdvance(false);
+    if (screen.fullScreenClick) {
+      const timer = setTimeout(() => {
+        setShowTapToAdvance(true);
+      }, 10000);
+
+      return () => clearTimeout(timer);
+    }
+  }, [screen.fullScreenClick]);
+  
   let screenClass = ["Screen"];
   if (screen.characterInFront) {
     screenClass.push("characterInFront");
@@ -17,6 +30,7 @@ const Screen = ({ story, screen, onChoice }) => {
   return (
     <div className={screenClass.join(" ")} onClick={onFullScreenClick}>
       <img src={screen.background} alt="background" className="background" />
+      {showTapToAdvance && <div className="tapToAdvance"><div className="text">Tap to continue...</div></div>}
       {story.foreground && <img src={story.foreground} alt="foreground" className="storyForeground" />}
       {screen.bartop && <img src={screen.bartop} alt="bartop" className="bartop" />}
       {screen.middleground && <img src={screen.middleground} alt="middleground" className="middleground" />}

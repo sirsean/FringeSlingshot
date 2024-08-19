@@ -218,12 +218,12 @@ a:hover {
   height: 100%;
 }
 
-.background, .middleground, .character, .bartop, .storyForeground {
+.background, .middleground, .character, .bartop, .storyForeground, .tapToAdvance {
   position: absolute;
   left: 0;
 }
 
-.background, .middleground, .bartop, .storyForeground {
+.background, .middleground, .bartop, .storyForeground, .tapToAdvance {
   width: 100%;
   height: 100%;
   top: 0;
@@ -260,6 +260,19 @@ a:hover {
 .Screen .storyForeground {
   z-index: 5;
   mix-blend-mode: screen;
+}
+
+.Screen .tapToAdvance {
+  z-index: 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.Screen .tapToAdvance .text {
+  text-align: center;
 }
 
 .Screen .foreground {
