@@ -623,7 +623,7 @@
           "middleground": "/img/mid/mg21.png",
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/religious-pilgrim/pilgrim.png",
-          "text": "Augurs of geometry. Their pursuit to build catherdrals on 1729 planets is folly. The creator is not so vain.",
+          "text": "Augurs of geometry. Their pursuit to build cathedrals on 1729 planets is folly. The creator is not so vain.",
           "choices": [{ "text": "Serve", "nextEncounter": "gastrotech-3" }]
         },
         "black-hole-worship": {
@@ -687,7 +687,7 @@
           "middleground": "/img/mid/mg19.png",
           "bartop": "/img/bar/bartop1h.png",
           "character": "/img/characters/drifter06/drifter06-looking-into-cam.png",
-          "text": "I salvaged enough grub larva. Ingested in his drink will make him drowzy enough for me to escape, save me, please.",
+          "text": "I salvaged enough grub larva. Ingested in his drink will make him drowsy enough for me to escape, save me, please.",
           "choices": [
             { "text": "I'll think about it", "nextEncounter": "duzi-choice" }
           ]
@@ -710,7 +710,7 @@
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter07/drifter07.png",
           "characterInFront": true,
-          "text": "On the surface the lure of riches or an imperiled plea. Which way does your compass point? Who will you help?",
+          "text": "On the surface the lure of riches or an imperilled plea. Which way does your compass point? Whom will you aid?",
           "choices": [
             { "text": "Gastrotech", "nextScreen": "gastrotech" },
             { "text": "Carver", "nextScreen": "carver" }
@@ -792,7 +792,7 @@
           "bartop": "/img/bar/bartop1.png",
           "character": "/img/characters/drifter07/drifter07.png",
           "characterInFront": true,
-          "text": "What deadly pall possessed him? We all harbor ghosts. Take heed who ye tether to; can be yer undoing.",
+          "text": "What deadly pall possessed him? We all harbor ghosts. Take heed who ye tether to; could be yer undoing.",
           "choices": [
             { "text": "It's Over", "nextEncounter": "duzi-ending" }
           ]
