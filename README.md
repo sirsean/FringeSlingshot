@@ -1,6 +1,13 @@
 # The Fringe: Slingshot
 
-This was developed in Replit, so the easiest way to run a dev copy is just to hit the Run button.
+A React-based interactive story game deployed on Cloudflare Workers. Players navigate through encounters and make choices that affect their journey through "The Fringe."
+
+## Architecture
+
+- **Frontend**: React with TypeScript, built with Vite
+- **Deployment**: Cloudflare Workers with static asset hosting; auto-deploy on push to main
+- **Routing**: React Router for SPA navigation with fallback support
+- **Domain**: Deployed at https://fringeslingshot.sirsean.me
 
 ## Local Development
 
