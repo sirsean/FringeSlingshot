@@ -2,14 +2,30 @@
 
 This was developed in Replit, so the easiest way to run a dev copy is just to hit the Run button.
 
-If you're running it locally on your own hardware, you can probably do something like
+## Local Development
+
+### Quick start
 
 ```bash
 npm install
-npm run dev
+npm run dev            # hot-reload Vite server
 ```
 
-and that might get it up and running.
+### Preview Cloudflare environment locally
+
+```bash
+npm run cf:preview
+```
+
+(Runs the built worker on http://localhost:8787)
+
+### Deploy
+
+```bash
+npm run deploy
+```
+
+Note that `NODE_ENV=production` is implicit during `wrangler publish`.
 
 ## Stories
 

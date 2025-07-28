@@ -1,0 +1,17 @@
+name = "fringe-slingshot"
+account_id = "f400e5cfc5e8cd621a3c3f9264a92bc4"
+compatibility_date = "2024-04-04"
+
+main = "src/worker.ts"
+
+[build]
+command = "npm run build"        # vite build
+
+[assets]
+binding = "ASSETS"
+directory = "./dist"              # where Vite writes static assets
+
+# Custom domain configuration
+[[routes]]
+pattern = "fringeslingshot.sirsean.me"
+custom_domain = true
